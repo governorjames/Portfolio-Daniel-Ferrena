@@ -10,6 +10,7 @@ export const metadata: Metadata = {
   description: "Professional portfolio of Daniel Ferrena, an experienced field marketing and retail execution professional representing nationally recognized brands.",
   metadataBase: new URL("https://danielferrena.com"),
   applicationName: "Daniel Ferrena Portfolio",
+  manifest: "/manifest.webmanifest",
   authors: [{ name: "Daniel Ferrena" }],
   creator: "Daniel Ferrena",
   publisher: "Daniel Ferrena",
