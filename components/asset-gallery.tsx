@@ -28,8 +28,10 @@ function publicPath(asset: string) {
   return encodeURI(`/portfolio-assets/${asset}`);
 }
 
-export function PortfolioNarrativeGallery({ directories, title, variant = 0, assets: suppliedAssets = [], assetSources = {}, excludedAssets = [], assetOrder = [], trailingAssetOrder = [], layout, collapseFailedAssets = false, loadEagerly = false, collapseUntilLoaded = false, validateVisualMedia = false }: { directories: string[]; title: string; variant?: number; assets?: string[]; assetSources?: Record<string, string>; excludedAssets?: string[]; assetOrder?: string[]; trailingAssetOrder?: string[]; layout?: "masonry" | "row-grid" | "single"; collapseFailedAssets?: boolean; loadEagerly?: boolean; collapseUntilLoaded?: boolean; validateVisualMedia?: boolean }) {
-  const availableAssets = [...directories.flatMap((directory) => getImages(directory)), ...suppliedAssets].filter((asset) => !excludedAssets.includes(asset));
+export function PortfolioNarrativeGallery({ directories, title, variant = 0, assets: suppliedAssets = [], assetSources = {}, excludedAssets = [], assetOrder = [], trailingAssetOrder = [], insertBeforeAssets = {}, layout, collapseFailedAssets = false, loadEagerly = false, collapseUntilLoaded = false, validateVisualMedia = false }: { directories: string[]; title: string; variant?: number; assets?: string[]; assetSources?: Record<string, string>; excludedAssets?: string[]; assetOrder?: string[]; trailingAssetOrder?: string[]; insertBeforeAssets?: Record<string, string[]>; layout?: "masonry" | "row-grid" | "single"; collapseFailedAssets?: boolean; loadEagerly?: boolean; collapseUntilLoaded?: boolean; validateVisualMedia?: boolean }) {
+  const insertedAssets = new Set(Object.values(insertBeforeAssets).flat());
+  const sourceAssets = [...directories.flatMap((directory) => getImages(directory)), ...suppliedAssets].filter((asset) => !excludedAssets.includes(asset) && !insertedAssets.has(asset));
+  const availableAssets = sourceAssets.flatMap((asset) => [...(insertBeforeAssets[asset] ?? []), asset]);
   const prioritizedAssets = assetOrder.filter((asset) => availableAssets.includes(asset));
   const trailingAssets = trailingAssetOrder.filter((asset) => availableAssets.includes(asset) && !prioritizedAssets.includes(asset));
   const assets = [...prioritizedAssets, ...availableAssets.filter((asset) => !prioritizedAssets.includes(asset) && !trailingAssets.includes(asset)), ...trailingAssets];

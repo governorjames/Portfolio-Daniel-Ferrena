@@ -70,6 +70,33 @@ const sennheiserTrainingAssetOrder = [
   "Training/Training:2020 Companies/Sennheiser:2020 Companies/IMG_6873.jpeg",
   "Training/Training:2020 Companies/Sennheiser:2020 Companies/IMG_8244.jpeg",
   "Training/Training:2020 Companies/Sennheiser:2020 Companies/IMG_8954.jpeg",
+  "Training/Training:2020 Companies/Sennheiser:2020 Companies/IMG_1865.jpeg",
+  "Training/Training:2020 Companies/Sennheiser:2020 Companies/T-Mobile/IMG_4837.jpeg",
+  "Training/Training:2020 Companies/Sennheiser:2020 Companies/T-Mobile/IMG_4849.jpeg",
+  "Training/Training:2020 Companies/Sennheiser:2020 Companies/T-Mobile/IMG_4881.jpeg",
+  "Training/Training:2020 Companies/Sennheiser:2020 Companies/T-Mobile/IMG_4889.jpeg",
+  "Training/Training:2020 Companies/Sennheiser:2020 Companies/T-Mobile/IMG_4898.jpeg",
+  "Training/Training:2020 Companies/Sennheiser:2020 Companies/T-Mobile/IMG_4901.jpeg",
+  "Training/Training:2020 Companies/Sennheiser:2020 Companies/T-Mobile/IMG_4922.jpeg",
+  "Training/Training:2020 Companies/Sennheiser:2020 Companies/T-Mobile/IMG_4921.jpeg",
+  "Training/Training:2020 Companies/Sennheiser:2020 Companies/T-Mobile/IMG_4923.jpeg",
+  "Training/Training:2020 Companies/Sennheiser:2020 Companies/T-Mobile/IMG_5030.jpeg",
+  "Training/Training:2020 Companies/Sennheiser:2020 Companies/T-Mobile/IMG_5387.jpeg",
+  "Training/Training:2020 Companies/Sennheiser:2020 Companies/T-Mobile/IMG_5414.jpeg",
+  "Training/Training:2020 Companies/Sennheiser:2020 Companies/T-Mobile/IMG_5425.jpeg",
+  "Training/Training:2020 Companies/Sennheiser:2020 Companies/T-Mobile/IMG_5433.jpeg",
+  "Training/Training:2020 Companies/Sennheiser:2020 Companies/T-Mobile/IMG_5486.jpeg",
+  "Training/Training:2020 Companies/Sennheiser:2020 Companies/T-Mobile/IMG_5504.jpeg",
+  "Training/Training:2020 Companies/Sennheiser:2020 Companies/T-Mobile/IMG_5527.jpeg",
+  "Training/Training:2020 Companies/Sennheiser:2020 Companies/T-Mobile/IMG_5533.jpeg",
+  "Training/Training:2020 Companies/Sennheiser:2020 Companies/T-Mobile/IMG_5885.jpeg",
+  "Training/Training:2020 Companies/Sennheiser:2020 Companies/T-Mobile/IMG_5883.jpeg",
+  "Training/Training:2020 Companies/Sennheiser:2020 Companies/T-Mobile/IMG_5899.jpeg",
+  "Training/Training:2020 Companies/Sennheiser:2020 Companies/T-Mobile/IMG_5904.jpeg",
+  "Training/Training:2020 Companies/Sennheiser:2020 Companies/T-Mobile/IMG_5908.jpeg",
+  "Training/Training:2020 Companies/Sennheiser:2020 Companies/T-Mobile/IMG_5918.jpeg",
+  "Training/Training:2020 Companies/Sennheiser:2020 Companies/T-Mobile/IMG_5992.jpeg",
+  "Training/Training:2020 Companies/Sennheiser:2020 Companies/T-Mobile/IMG_6037.jpeg",
   "Training/Training:2020 Companies/Sennheiser:2020 Companies/IMG_4869.jpeg",
   "Training/Training:2020 Companies/Sennheiser:2020 Companies/IMG_5515.jpeg",
   "Training/Training:2020 Companies/Sennheiser:2020 Companies/IMG_5888.jpeg",
@@ -109,7 +136,7 @@ export default function PortfolioPage() {
     </section>
 
     <section id="customer-engagement-brand-advocacy" className="scroll-mt-28 pt-20 pb-8 md:pt-28 md:pb-12"><div className="page-shell"><p className="eyebrow">02 · Customer Engagement &amp; Brand Advocacy</p><h2 className="display mt-5 max-w-5xl text-4xl font-semibold md:text-7xl">Building Brand Advocacy Through Customer Engagement.</h2><p className="mt-6 max-w-3xl text-lg leading-8 text-[#6e6e73]">Every customer interaction was an opportunity to educate, build trust, and create enthusiasm for the brands I represented—turning product knowledge into meaningful retail experiences.</p></div>
-      <PortfolioNarrativeGallery title="Customer Engagement & Brand Advocacy" directories={["Customer Interactions:Sales/Sennheiser:2020", "Customer Interactions:Sales/Creative Channel Services", "Customer Interactions:Sales/Eero:Marketsource", "Customer Interactions:Sales/Huawei:Mosaic", "Customer Interactions:Sales/Meta:2020 Companies", "Customer Interactions:Sales/Motorola:BDS Connected Solutions", "Customer Interactions:Sales/Samsung:Premium Retail Services", "Misc 2020 Companies Field Pictures/Empire Today Field Pics", "Misc 2020 Companies Field Pictures/Rebath Field Pics"]} assetSources={{ "Misc 2020 Companies Field Pictures/Rebath Field Pics/IMG_20240517_125748.jpg": "/portfolio-assets/optimized/rebath-field-20240517.jpg", "Misc 2020 Companies Field Pictures/Rebath Field Pics/IMG_20240601_152926.jpg": "/portfolio-assets/optimized/rebath-field-20240601.jpg", "Misc 2020 Companies Field Pictures/Rebath Field Pics/IMG_20240705_112022477_HDR.jpg": "/portfolio-assets/optimized/rebath-field-20240705.jpg" }} excludedAssets={["Customer Interactions:Sales/Creative Channel Services/IMG_2269 copy.JPG", "Customer Interactions:Sales/Creative Channel Services/IMG_2270.JPG", "Customer Interactions:Sales/Eero:Marketsource/IMG_1526.jpeg", "Customer Interactions:Sales/Motorola:BDS Connected Solutions/IMG_20201120_151336643.jpg"]} variant={1} layout="row-grid" collapseFailedAssets loadEagerly collapseUntilLoaded validateVisualMedia />
+      <PortfolioNarrativeGallery title="Customer Engagement & Brand Advocacy" directories={["Customer Interactions:Sales/Sennheiser:2020", "Customer Interactions:Sales/Creative Channel Services", "Customer Interactions:Sales/Eero:Marketsource", "Customer Interactions:Sales/Huawei:Mosaic", "Customer Interactions:Sales/Meta:2020 Companies", "Customer Interactions:Sales/Motorola:BDS Connected Solutions", "Customer Interactions:Sales/Samsung:Premium Retail Services", "Misc 2020 Companies Field Pictures/Empire Today Field Pics", "Misc 2020 Companies Field Pictures/Rebath Field Pics"]} assets={["Training/Training:Other 3PL Agencies/Microsoft:Mosaic/IMG_5652.JPG"]} insertBeforeAssets={{ "Misc 2020 Companies Field Pictures/Empire Today Field Pics/IMG_20260508_135152103_HDR.jpg": ["Training/Training:Other 3PL Agencies/Microsoft:Mosaic/IMG_5652.JPG"] }} assetSources={{ "Misc 2020 Companies Field Pictures/Rebath Field Pics/IMG_20240517_125748.jpg": "/portfolio-assets/optimized/rebath-field-20240517.jpg", "Misc 2020 Companies Field Pictures/Rebath Field Pics/IMG_20240601_152926.jpg": "/portfolio-assets/optimized/rebath-field-20240601.jpg", "Misc 2020 Companies Field Pictures/Rebath Field Pics/IMG_20240705_112022477_HDR.jpg": "/portfolio-assets/optimized/rebath-field-20240705.jpg" }} excludedAssets={["Customer Interactions:Sales/Creative Channel Services/IMG_2269 copy.JPG", "Customer Interactions:Sales/Creative Channel Services/IMG_2270.JPG", "Customer Interactions:Sales/Eero:Marketsource/IMG_1526.jpeg", "Customer Interactions:Sales/Motorola:BDS Connected Solutions/IMG_20201120_151336643.jpg"]} variant={1} layout="row-grid" collapseFailedAssets loadEagerly collapseUntilLoaded validateVisualMedia />
     </section>
 
     <section id="special-projects-innovation" className="scroll-mt-28 bg-white py-20 md:py-28"><div className="page-shell"><p className="eyebrow">03 · Special Projects &amp; Innovation</p><h2 className="display mt-5 max-w-5xl text-4xl font-semibold md:text-7xl">Building Resources That Help Teams Perform.</h2><p className="mt-6 max-w-3xl text-lg leading-8 text-[#6e6e73]">Beyond day-to-day field execution, I created training resources, presentations, and practical tools designed to make information easier to understand, share, and apply.</p></div>

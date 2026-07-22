@@ -11,6 +11,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://danielferrena.com"),
   applicationName: "Daniel Ferrena Portfolio",
   manifest: "/manifest.webmanifest",
+  icons: { icon: "/favicon.svg" },
   authors: [{ name: "Daniel Ferrena" }],
   creator: "Daniel Ferrena",
   publisher: "Daniel Ferrena",
