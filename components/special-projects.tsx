@@ -108,6 +108,24 @@ const projects: SpecialProject[] = [
   },
 ];
 
+const projectOrder = [
+  "Custom Eero Training Deck",
+  "Samsung Expert Training Binder",
+  "BBY Corporate Orlando Office Multi District Recap",
+  "Motorola Virtual Training Series",
+  "Salesforce End-of-Shift Reporting Redesign",
+] as const;
+
+const orderedProjects = projectOrder.map((title) => {
+  const project = projects.find((item) => item.title === title);
+
+  if (!project) {
+    throw new Error(`Missing special project: ${title}`);
+  }
+
+  return project;
+});
+
 const accentStyles = {
   blue: "from-[#eaf4ff] via-[#f7fbff] to-white before:bg-[#0066cc]",
   graphite: "from-[#f1f1f3] via-[#fafafa] to-white before:bg-[#424245]",
@@ -140,7 +158,7 @@ export function SpecialProjects() {
   return <>
     <div className="mt-14 xl:mt-16">
       <div className="page-shell grid gap-4 sm:grid-cols-2 xl:grid-cols-5">
-        {projects.map((project, index) => <button
+        {orderedProjects.map((project, index) => <button
         key={project.title}
         ref={index === 0 ? triggerRef : undefined}
         type="button"

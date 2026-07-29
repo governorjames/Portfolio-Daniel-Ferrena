@@ -17,7 +17,7 @@ export const metadata = {
 export default function EducationPage() {
   return <main id="main-content"><SiteHeader />
     <section className="page-shell py-16 md:py-28"><div className="translate-y-4 md:translate-y-6"><p className="eyebrow">Education</p><h1 className="display mt-6 max-w-5xl text-5xl font-semibold md:text-8xl">A foundation for continual development.</h1><p className="mt-9 max-w-3xl text-xl leading-8 text-[#6e6e73]">Three college degrees reflect an interdisciplinary foundation spanning communication, business, technology, and the arts.</p></div></section>
-    <section className="bg-white py-20 md:py-28"><div className="page-shell"><DegreeGallery credentials={credentials} /></div></section>
+    <section className="bg-white pt-10 pb-20 md:pt-14 md:pb-28"><div className="page-shell"><DegreeGallery credentials={credentials} /></div></section>
     <SiteFooter />
   </main>;
 }

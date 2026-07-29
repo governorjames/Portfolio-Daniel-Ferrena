@@ -49,7 +49,7 @@ export function PortfolioDocumentArchive({ directory, title, assets: suppliedAss
 }
 
 export function PortfolioFeaturedDocument({ title, caption, src }: { title: string; caption: string; src: string }) {
-  return <div className="page-shell portfolio-featured-document-shell grid gap-10 md:grid-cols-[minmax(0,.85fr)_minmax(0,1.15fr)] md:items-center md:gap-16"><div className="max-w-xl"><h3 className="text-3xl font-semibold tracking-[-.05em] md:text-5xl">{title}</h3><p className="mt-5 max-w-2xl leading-7 text-[#6e6e73]">{caption}</p></div><div className="w-full max-w-[38rem] md:justify-self-end"><PortfolioMediaGallery assets={[{ src, alt: `${title} from a MarketSource Program Manager` }]} title={title} layout="single" /></div></div>;
+  return <div className="page-shell portfolio-featured-document-shell grid gap-10 md:grid-cols-[minmax(0,.85fr)_minmax(0,1.15fr)] md:items-center md:gap-16"><div className="max-w-xl md:-translate-y-10"><h3 className="text-3xl font-semibold tracking-[-.05em] md:text-5xl">{title}</h3><p className="mt-5 max-w-2xl leading-7 text-[#6e6e73]">{caption}</p></div><div className="w-full max-w-[38rem] md:justify-self-end"><PortfolioMediaGallery assets={[{ src, alt: `${title} from a MarketSource Program Manager` }]} title={title} layout="single" /></div></div>;
 }
 
 export function AssetGallery({ directory, title, description, className = "", variant = 0, assets: suppliedAssets }: { directory: string; title: string; description: string; className?: string; variant?: number; assets?: string[] }) {

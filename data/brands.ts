@@ -25,6 +25,7 @@ export const brands: Brand[] = [
   { name: "WHOOP", asset: "Brand Logos/WHOOP-Logo.png", website: "https://www.whoop.com/us/en/", logoClassName: "scale-[1.12]" },
   { name: "Empire Today", asset: "Brand Logos/Empire_Today-Logo.wine.png", website: "https://www.empiretoday.com/", logoClassName: "scale-[2.4]" },
   { name: "Re-Bath", asset: "Brand Logos/re-bath-seeklogo.png", website: "https://www.rebath.com/", logoClassName: "scale-[.72]" },
+  { name: "Mazda", asset: "Brand Logos/Mazda-Logo-2015.png", website: "https://www.mazdausa.com/", logoClassName: "scale-[1.45]" },
 ];
 
 const brandsPageOrder = [
@@ -47,6 +48,7 @@ const brandsPageOrder = [
   "WHOOP",
   "Empire Today",
   "Re-Bath",
+  "Mazda",
 ] as const;
 
 export const brandsForBrandsPage = brandsPageOrder.map((name) => brands.find((brand) => brand.name === name)!);

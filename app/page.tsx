@@ -8,7 +8,7 @@ import { brandsForBrandsPage } from "@/data/brands";
 const proofPoints = [
   ["10+ years", "Field marketing, retail execution, brand advocacy, and team development."],
   ["~30 programs", "A durable record across changing brands, retailers, and customer needs."],
-  ["19 brands", "A broad public portfolio of companies represented throughout the career."],
+  ["20 brands", "A broad public portfolio of companies represented throughout the career."],
 ];
 
 const pathways = [

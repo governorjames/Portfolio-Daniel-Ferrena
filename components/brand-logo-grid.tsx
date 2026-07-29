@@ -17,6 +17,7 @@ const homeLogoScale: Record<string, string> = {
   Nespresso: "scale-[.95]",
   "Empire Today": "scale-[1.4]",
   "Re-Bath": "scale-[.9]",
+  Mazda: "scale-[.9]",
 };
 
 export function BrandLogoGrid({ limit, rebalanceLogos = false, items = brands, linkToOfficialSites = false, uniform = false }: { limit?: number; rebalanceLogos?: boolean; items?: readonly Brand[]; linkToOfficialSites?: boolean; uniform?: boolean }) {
