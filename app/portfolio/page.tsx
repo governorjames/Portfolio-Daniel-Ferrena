@@ -69,6 +69,7 @@ const eeroTrainingAssetOrder = [
 ];
 
 const sennheiserTrainingAssetOrder = [
+  "Training/Training:2020 Companies/Sennheiser:2020 Companies/Headshot.JPG",
   "Training/Training:2020 Companies/Sennheiser:2020 Companies/IMG_2638.jpeg",
   "Training/Training:2020 Companies/Sennheiser:2020 Companies/IMG_2662.jpeg",
   "Training/Training:2020 Companies/Sennheiser:2020 Companies/IMG_2836.jpeg",
@@ -143,7 +144,6 @@ export default function PortfolioPage() {
         "Training/Eero:Marketsource/IMG_1855.jpeg",
         "Training/Eero:Marketsource/IMG_0792.jpeg",
         "Training/Eero:Marketsource/IMG_0855.jpeg",
-        "Training/Training:2020 Companies/Sennheiser:2020 Companies/Headshot.JPG",
         "Territories/Orlando North - Motorola:BDS Solutions.jpg"
       ]} variant={0} layout="row-grid" collapseFailedAssets loadEagerly collapseUntilLoaded validateVisualMedia />
     </section>

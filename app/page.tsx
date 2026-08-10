@@ -29,7 +29,7 @@ export default function Home() {
         <p className="reveal reveal-delay-2 mt-8 max-w-2xl text-lg leading-8 text-[#6e6e73] md:text-xl">Daniel Ferrena is a field marketing and retail execution professional with more than a decade of experience representing nationally recognized brands, developing retail teams, and delivering results in the field.</p>
       </div>
       <div className="relative h-[320px] overflow-hidden rounded-[2rem] bg-[#e8eff8] md:h-[480px]">
-        <Image src="/images/portfolio/daniel-ferrena-headshot.jpg" alt="Daniel Ferrena in a Samsung professional headshot" fill priority sizes="(min-width: 768px) 40vw, 88vw" className="object-cover object-center" />
+        <Image src="/images/portfolio/daniel-ferrena-blazer-headshot.png" alt="Daniel Ferrena in a professional blazer headshot" fill priority sizes="(min-width: 768px) 40vw, 88vw" className="object-cover object-center" />
         <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-black/45 to-transparent" />
       </div>
     </section>
@@ -52,7 +52,7 @@ export default function Home() {
       </div>
       <div className="mt-12 grid gap-4 md:grid-cols-3">
         <div className="relative aspect-[4/3] overflow-hidden rounded-2xl bg-[#e8eff8]"><Image src="/portfolio-assets/Awards:Recognition:Achievements/2020%20Companies/Program%20Manager%20and%20Team%20Leader%20(me)%2C%20with%20other%20FSMs%20on%20exterior.jpeg" alt="Daniel Ferrena with a program manager and field team" fill sizes="(min-width: 768px) 29vw, 88vw" className="object-cover object-center" /></div>
-        <div className="relative aspect-[4/3] overflow-hidden rounded-2xl bg-[#e8eff8]"><Image src="/portfolio-assets/Training/Training:2020%20Companies/Sennheiser:2020%20Companies/Headshot.JPG" alt="Daniel Ferrena in a Sennheiser professional headshot" fill sizes="(min-width: 768px) 29vw, 88vw" className="object-cover object-center" /></div>
+              <div className="relative aspect-[4/3] overflow-hidden rounded-2xl bg-[#e8eff8]"><Image src="/images/portfolio/daniel-ferrena-headshot.jpg" alt="Daniel Ferrena in a Samsung professional headshot" fill sizes="(min-width: 768px) 29vw, 88vw" className="object-cover object-center" /></div>
         <div className="relative aspect-[4/3] overflow-hidden rounded-2xl bg-[#e8eff8]"><Image src="/portfolio-assets/Awards:Recognition:Achievements/Marketsource/Eero%20Team%20@%20Best%20Buy%20Headquarters.jpeg" alt="eero team at Best Buy headquarters" fill sizes="(min-width: 768px) 29vw, 88vw" className="object-cover object-center" /></div>
       </div>
     </section>
